@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+main {
+    background-image: url(clouds.jpg);
+    background-size: cover;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.city-name {
+    font-family: 'Courgette', cursive;
+    color: white;
+    width: 100%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.search {
+    position: fixed;
+    top: 5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search input {
+    width: 25%;
+    margin: 0 10px;
+}
+
+.search button {
+    width: 10%;
+}
+
+.weather-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+}
+
+.day-weather {
+    width: 18%;
+    background-color: hsla(360, 100%, 100%, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.date {
+    font-family: 'Courgette', cursive;
+}
+
+.temp {
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+}
